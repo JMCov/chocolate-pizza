@@ -1,5 +1,63 @@
- .borderImg{
+.borderImg{
   background: url(/img/hr-img.png) repeat;
   height: 10px;
   border: none;
+}
+
+body {
+  margin: 30px;
+  max-width: 980px;
+  
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header section {
+  display: flex;
+}
+#socialMediaIcons ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  
+}
+#socialMediaIcons li {
+  margin-right: 2px;
+}
+
+main section {
+  display: flex;
+  justify-content: space-between;
+}
+
+#printerFunction {
+  display: flex;
+  height: fit-content;
+}
+
+#pizza {
+  max-width: fit-content;
+}
+
+main p {
+  margin: 5px 0;
+}
+
+#recipe {
+  display: flex;
+}
+
+#recipe ul {
+  position: absolute;
+  columns: auto;
+  columns: 2;
+  margin: 30px;
+}
+
+#recipe li {
+  margin: 15px 15px 15px 45px;
+  font-size: 20px;
+  list-style-type: square;
 }
