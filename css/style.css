@@ -6,7 +6,7 @@
 
 body {
   margin: 30px;
-  max-width: 980px;
+  max-width: 900px;
   
 }
 header {
@@ -38,7 +38,7 @@ main section {
 }
 
 #pizza {
-  max-width: fit-content;
+  display: flexbox;
 }
 
 main p {
@@ -73,5 +73,10 @@ button {
 }
 
 footer {
+  margin: 50px 0 100px;
+  text-align: center;
+}
 
+footer img {
+  margin-bottom: 20px;
 }
